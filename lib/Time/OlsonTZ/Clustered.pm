@@ -4,7 +4,7 @@ use warnings;
 
 package Time::OlsonTZ::Clustered;
 # ABSTRACT: Olson time zone clusters based on similar offset and DST changes
-our $VERSION = '0.001'; # VERSION
+our $VERSION = '0.002'; # VERSION
 
 use Sub::Exporter -setup => {
     exports => [
@@ -140,7 +140,7 @@ Time::OlsonTZ::Clustered - Olson time zone clusters based on similar offset and 
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
@@ -292,7 +292,7 @@ Given an Olson time zone name, returns the primary zone name for the cluster
 containing the zone.  Returns undef or the empty list if the zone is
 not recognized.
 
-=head2 is_primary {
+=head2 is_primary
 
     if ( is_primary("America/Chicago") ) { ... }
 
@@ -422,7 +422,7 @@ Andrew Main (ZEFRAM) for his time zone modules and advice on zone clustering heu
 
 =item *
 
-Breno Olivera (GARU) for his patient explanations and advice regarding Brazilian time zones.
+Breno G. de Oliveira (GARU) for his patient explanations and advice regarding Brazilian time zones.
 
 =back
 

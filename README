@@ -3,7 +3,7 @@ NAME
     offset and DST changes
 
 VERSION
-    version 0.001
+    version 0.002
 
 SYNOPSIS
         use Time::OlsonTZ::Clustered ':all';
@@ -140,7 +140,7 @@ FUNCTIONS
     cluster containing the zone. Returns undef or the empty list if the zone
     is not recognized.
 
-  is_primary {
+  is_primary
         if ( is_primary("America/Chicago") ) { ... }
 
     A boolean function to check if a time zone is primary for its cluster.
@@ -251,7 +251,7 @@ ACKNOWLEDGMENTS
     *   Andrew Main (ZEFRAM) for his time zone modules and advice on zone
         clustering heuristics.
 
-    *   Breno Olivera (GARU) for his patient explanations and advice
+    *   Breno G. de Oliveira (GARU) for his patient explanations and advice
         regarding Brazilian time zones.
 
     Any errors are solely those of the author (or the upstream Olson

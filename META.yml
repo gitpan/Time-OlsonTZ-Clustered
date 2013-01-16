@@ -30,7 +30,7 @@ no_index:
 provides:
   Time::OlsonTZ::Clustered:
     file: lib/Time/OlsonTZ/Clustered.pm
-    version: 0.001
+    version: 0.002
 requires:
   File::ShareDir::Tarball: 0
   Path::Class: 0
@@ -44,4 +44,4 @@ resources:
   bugtracker: https://github.com/dagolden/time-olsontz-clustered/issues
   homepage: https://metacpan.org/release/Time-OlsonTZ-Clustered
   repository: git://github.com/dagolden/time-olsontz-clustered.git
-version: 0.001
+version: 0.002

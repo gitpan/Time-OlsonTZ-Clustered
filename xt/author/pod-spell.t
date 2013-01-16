@@ -12,7 +12,8 @@ __DATA__
 Breno
 GARU
 McMurdo
-Olivera
+de
+Oliveira
 ZEFRAM
 David
 Golden
